@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Tracker</title>
     <link rel="stylesheet" href="style.css">
+    <script src="js-file.js" defer></script>
 </head>
 <body>
     <div class="header">
@@ -27,8 +28,30 @@
           </div>
     </div>
 
-    
-    
+    <fieldset>
+        <legend>Insert Food Items</legend>
+        
+        <label for="foodName">Food Name:</label>
+        <input type="text" id="foodName">
+
+        <label for="expirationDate">Expiration Date:</label>
+        <input type="date" id="expirationDate">
+
+        <button class="submit-btn">Submit</button>
+    </fieldset>
+
+    <table id="foodInventory">
+        <tr>
+            <th>Food Name</th>
+            <th>Expiration Date (YYYY-MM-DD)</th>
+            <th>Delete?</th>
+        </tr>
+    </table>
+
+    <footer>
+        <p>Background image attribution: <a href="https://www.vecteezy.com/free-vector/nature">Nature Vectors by Vecteezy</a></p>
+    </footer> 
+
 </body>
 </html>
 
