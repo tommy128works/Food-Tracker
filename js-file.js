@@ -23,5 +23,4 @@ submitButton.addEventListener('click', () => {
         tableFoodInventory.deleteRow(`${deleteButton.value}`);
     })
     itemCounter++;
-
 });

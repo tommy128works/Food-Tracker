@@ -2,14 +2,12 @@
 
 body {
     margin: 0;
-    background: #eee;
     font-family: Besley, serif;
     background-image: url('./img/cartoon-fruits-vector.jpg');
-    
 }
 
 .header {
-  background: white;
+  background: #E48900;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
@@ -18,16 +16,24 @@ body {
   padding: 8px;
 }
 
-.profile-image {
-    background: rebeccapurple;
-    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
-    border-radius: 50%;
-    width: 48px;
-    height:  48px;
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+#content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
 }
 
 .logo {
-    color: rebeccapurple;
+    color: white;
     font-size: 32px;
     font-weight: 900;
     font-style: italic;
@@ -36,7 +42,7 @@ body {
 button {
     border: none;
     border-radius: 8px;
-    background: rebeccapurple;
+    background: #BE0000;
     color: white;
     padding: 8px 24px;
 }
@@ -44,7 +50,7 @@ button {
 a {
     /* this removes the line under our links */
     text-decoration: none;
-    color: rebeccapurple;
+    color: white;
 }
 
 ul {
@@ -75,7 +81,7 @@ td, th {
 }
   
 th {
-    background-color: rgb(235,235,235);
+    background-color: #F0E161;
 }
   
 td {
@@ -83,11 +89,11 @@ td {
 }
   
 tr:nth-child(even) td {
-    background-color: rgb(250,250,250);
+    background-color: rgb(249, 249, 197);
 }
   
 tr:nth-child(odd) td {
-    background-color: rgb(245,245,245);
+    background-color: rgb(249, 239, 187);
 }
   
 caption {
